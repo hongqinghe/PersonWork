@@ -1,0 +1,4 @@
+include ':app'
+
+include(":ActivityModule")
+project(":ActivityModule").projectDir=new File('../ActivityLib/ActivityModule')
